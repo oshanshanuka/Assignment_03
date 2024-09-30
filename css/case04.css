@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+}
+
+header {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: red;
+    border-bottom: 1px solid black;
+}
+
+p{
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+
+h1{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    font-size: 100px;
+}

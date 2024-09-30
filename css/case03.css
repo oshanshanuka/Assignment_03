@@ -1,0 +1,46 @@
+
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    overflow: hidden;
+}
+
+.circle-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.outer-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.inner-circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
+}
+
+.inner-circle span {
+    color: white;
+    font-size: 20px;
+}
