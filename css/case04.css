@@ -1,26 +1,78 @@
 body{
-    margin: 0px;
+    margin: 0;
 }
 
-header {    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+.box{
+    height: 100vh;
+}
+.bg-color-white{
+    background-color: white;
+}
+
+.bg-color-blue{
+    background-color: rgb(0, 153, 255);
+}
+.bg-color-gray{
+    background-color: gray;
+}
+
+.bg-color-orange{
+    background-color: #eb4934;
+}
+.box-2{
+    top: 0px;
+    height: 100px;
     background-color: red;
-    border-bottom: 1px solid black;
+    position: sticky;
 }
 
-p{
-    text-align: left;
+.box-3{
+    top: 0px;
+    height: 100px;
+    background-color: blue;
+    position: sticky;
+}
+.box-4{
+    top: 0px;
+    height: 100px;
+    background-color: black;
+    position: sticky;
+}
+
+.box-5{
+    top: 0px;
+    height: 100px;
+    background-color: rgb(139, 28, 8);
+    position: sticky;
+}
+
+.box-text{
+
     color: white;
+    display: flex;
     font-size: 20px;
+    font-weight: 700;
+    /* position: relative;
+    top: 30px;
+    left: 12px; */
+    padding-top: 40px;
+    padding-left: 20px;
+
+    
 }
 
-h1{
-    position: fixed;
+.paragraph{
+
+    color: black;
+    font-size: 100px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform:translate(-50%,-50%) ;
-    font-size: 100px;
+    transform: translate(-50%, -50%); */
+    padding-top: 10%;
+
 }
